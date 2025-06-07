@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+/*====Globaly===*/
+
+h4{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+button{
+    color: white;
+    padding: 11px 25px;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-color: #ad1717;
+    border-radius: 70px;
+    border: 2px solid #ad1717;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    
+}
+
+button:hover{
+    background-color: #ad171700;
+    letter-spacing: 5px;
+    
+}
+
+/*---Header--*/
+header{
+    background-image:url(./images/sunset.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.695);
+    background-blend-mode: multiply;
+    min-height: 100vh;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    align-items: center;
+    padding: 20px 0px;
+}
+.logo a{
+    margin: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo a span{
+    font-weight: 100;
+}
+
+nav{}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0px 0px 0px 40px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+/*====banner===*/
+
+.banner{
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+.banner h4{
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.banner span {
+    height: 5px;
+    width: 170px;
+    background-color: #ad1717;
+    display: inline-block;
+    border-radius: 5px;
+}
+.banner h1{
+    text-transform: uppercase;
+}
+
